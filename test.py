@@ -1,3 +1,3 @@
 import netutils
 
-netutils.wait_connect()
+print(netutils.is_PC_working())

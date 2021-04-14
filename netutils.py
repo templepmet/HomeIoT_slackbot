@@ -2,6 +2,7 @@ import time
 import socket
 import netifaces
 import subprocess
+import slackbot_settings
 from wakeonlan import send_magic_packet
 
 def get_ip():
